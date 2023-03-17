@@ -111,9 +111,23 @@ a:hover {
 .single-service {
     padding: 0 30px;
 }
-.service-content {
+
+/* service content 1,2,3,4 */
+.service-content-1 {
     margin-top: 55px;
 }
+.service-content-2 {
+	margin-top: 48px;
+}
+.service-content-3 {
+	margin-top: 53px;
+}
+.service-content-4 {
+	margin-top: 45px;
+}
+
+
+
 .service-content h4 {
     font-size: 24px;
     color: #fff;

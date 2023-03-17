@@ -6,7 +6,11 @@
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    /* team member area start */
+    .team-member {
+        padding: 0;
+    }
+    /* team member area end */
 
 }
 
