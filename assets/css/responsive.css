@@ -10,13 +10,104 @@
     .team-member {
         padding: 0;
     }
+    .mem-img img:hover {
+        transform: scale(1);
+    }
     /* team member area end */
+
+    /* service area start */
+    .single-service {
+        padding: 0;
+    }
+    /* service area end */
+
+    /* about area start */
+    .client-info p {
+        font-size: 19px;
+    }
+    /* about area end */
+
+    /* footer menu area start */
+    .footer-menu .menu li a {
+        font-size: 20px;
+    }
+    /* footer menu area end */
 
 }
 
  
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    /* slider area start */
+    .slider-text h2 {
+        font-size: 30px;
+    }
+    .slider-btn a {
+        padding: 25px 70px;
+    }
+    /* slider area end */
+
+    /* service area start */
+    .service-area .section-title p {
+        margin-bottom: 50px;
+    }
+    .service-img img {
+        margin-top: 20px;
+    }
+    /* service area end */
+
+    /* team area start */
+    .team-area .section-title p {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .team-member {
+        padding: 0 27px;
+        margin-top: 30px;
+    }
+    .mem-img img:hover {
+        transform: scale(1);
+    }
+    /* team area end */
+
+    /* progress area start */
+    .progress-area .section-title p {
+        padding: 0;
+    }
+    /* progress area end */
+
+    /* portfolio area start */
+    .portfolio-load a {
+        padding: 25px 50px;
+    }
+    .portfolio-area .section-title p {
+        padding: 0;
+    }
+    /* portfolio area end */
+
+    /* client area start */
+    .client-area {
+        padding: 90px 0 30px;
+    }
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+    /* client area end */
+
+    /* form area start */
+    .form-area .section-title p {
+        padding: 0 70px;
+    }
+    .mt-25 {
+        margin-top: 25px;
+    }
+    /* form area end */
+
+    /* footer area start */
+    .footer-menu .menu li a {
+        font-size: 17px;
+    }
+    /* footer area end */
 
 
 }
@@ -24,6 +115,155 @@
  
 /* Extra small Device. */
 @media (max-width: 767px) {
+    /* ------------------------------- mobile menu start ------------------------------ */
+    .mobile-menu .common-menu {
+        display: block;
+    }
+    .mobile-menu .menu-close {
+        display: none;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        right: 0;
+        background: #fff;
+        padding: 20px;
+        /* opacity: 0;
+        visibility: hidden; */
+    }
+    
+    .menu-item li a {
+        color: #87509C;
+        display: block;
+        font-weight: 700;
+        padding: 20px;
+    }
+    .menu-item li a:hover {
+        color: #fff;
+        padding-left: 30px;
+    }
+    /* ------------------------------- mobile menu end ------------------------------ */
+
+    /* header area start */
+    .header-area {
+        padding: 25px 0;
+    }
+    /* header area end */
+
+    /* slider area start */
+    .slider-text h2 {
+        font-size: 33px;
+        margin-top: 70px;
+    }
+    .slider-btn a {
+        padding: 25px 50px;
+    }
+    /* slider area end */
+
+    /* ---------- section title ------- */
+    .service-area .section-title p {
+        padding: 0;
+    }
+    .team-area .section-title p {
+        padding: 0;
+    }
+
+    /* service area start */
+    .service-area {
+        padding: 90px 0 50px;
+    }
+    .single-service {
+        margin-bottom: 40px;
+    }
+    /* service area end */
+
+    /* team area start */
+    .team-area {
+        padding: 90px 0 50px;
+    }
+    .team-area .team-member {
+        margin-bottom: 40px;
+    }
+    /* team area end */
+
+    /* progress area start */
+    .progress-area .section-title p {
+        padding: 0;
+    }
+    .progress-area .single-chart {
+        margin-bottom: 40px;
+    }
+    .progress-area {
+        padding: 90px 0 50px;
+    }
+    /* progress area end */
+
+    /* portfolio area start */
+    .portfolio-area .section-title p {
+        padding: 0;
+    }
+    .portfolio-menu button {
+        margin: 0 5px 10px;
+    }
+    /* portfolio area end */
+
+    /* client area start */
+    .client-area .section-title p {
+        padding: 0;
+    }
+    .client-area {
+        padding: 90px 0 30px;
+    }
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+    .single-client {
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-info {
+        margin: 20px 45px 0;
+        text-align: center;
+    }
+    /* client area end */
+
+    /* form area start */
+    .form-area .section-title p {
+        padding: 0;
+    }
+    .form-content {
+        padding: 0;
+    }
+    .mt-25 {
+        margin-top: 25px;
+    }
+    /* form area end */
+
+
+    /* --------------------------- footer menu & icon --------------------------- */
+    .footer-area {
+        padding: 25px 0;
+    }
+    .footer-nav {
+        display: none;
+    }
+    .menu-last {
+        flex-direction: column;
+    }
+    .footer-menu .menu-last li a {
+        padding: 10px 0;
+        display: inline-block;
+    }
+    .footer-menu-icon {
+        display: block;
+    }
+    .up {
+        display: none;
+    }
+
 
  
 }

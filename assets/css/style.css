@@ -43,6 +43,27 @@ a:hover {
 .menu-item li a:hover {
     background: #643A79;
 }
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 mobile menu                                */
+/* -------------------------------------------------------------------------- */
+
+.mobile-menu .common-menu {
+	color: #fff;
+	font-size: 25px;
+	margin: 0 5px;
+}
+.mobile-menu .common-menu {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
 /* header area style end */
 
 /* slider area start */
@@ -101,10 +122,11 @@ a:hover {
     margin: auto;
 }
 .section-title p {
-    font-size: 18px;
-    line-height: 26px;
-    color: #fff;
-    margin-bottom: 70px;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+	margin-bottom: 70px;
+	padding: 0 260px;
 }
 
 /* services */
@@ -156,13 +178,16 @@ a:hover {
 } 
 .team-area .section-title p {
     color: #3C4761;
+    padding: 0 240px;
 }
+
 
 /* team member part */
 .team-member {
     padding: 0 27px;
 }
 .mem-img img {
+    /* width: 100%; */
     border-radius: 100%;
     cursor: pointer;
     transition: all .3s ease 0s;
@@ -279,7 +304,7 @@ circle {
 /* circle-1 */
 .circle-1 {
     stroke: #30BAE7;
-    animation: circle1 2s linear forwards;
+    animation: circle1 3s linear forwards;
 }
 
 @keyframes circle1 {
@@ -294,7 +319,7 @@ circle {
 /* circle-2 */
 .circle-2 {
     stroke: #D74680;
-    animation: circle2 2s linear forwards;
+    animation: circle2 3s linear forwards;
 }
 
 @keyframes circle2 {
@@ -309,7 +334,7 @@ circle {
 
 .circle-3 {
     stroke: #15C7A8;
-    animation: circle3 2s linear forwards;
+    animation: circle3 3s linear forwards;
 }
 
 @keyframes circle3 {
@@ -325,7 +350,7 @@ circle {
 
 .circle-4 {
     stroke: #EB7D4B;
-    animation: circle4 2s linear forwards;
+    animation: circle4 3s linear forwards;
 }
 
 @keyframes circle4 {
@@ -355,6 +380,7 @@ circle {
 .portfolio-area .section-title p {
     color: #3C4761;
     margin-bottom: 40px;
+    padding: 0px 270px;
 }
 .portfolio-menu button {
     background: #EBC985;
@@ -376,7 +402,8 @@ circle {
     margin-top: 60px;
 }
 .portfolio-single img {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
+	width: 100%;
 }
 .portfolio-into {
     font-size: 18px;
@@ -408,11 +435,11 @@ circle {
 
 /* about area start */
 
-.about-area {
+.client-area {
     background: #D74680;
     padding: 90px 0;
 }
-.about-area .section-title h3::before {
+.client-area .section-title h3::before {
     background: #B73C6D;
 }
 
@@ -452,6 +479,9 @@ circle {
 }
 .form-area .section-title h3::before {
     background: #273A71;
+}
+.form-area .section-title p {
+	padding: 0 140px;
 }
 .form-content {
     padding: 0 120px;
@@ -507,13 +537,28 @@ circle {
     background: #344B8E;
     padding: 50px 0;
 }
-.footer-menu .menu li a {
+.footer-menu .menu-last li a {
     font-size: 24px;
     color: #fff;
     font-weight: 600;
     transition: all .3s ease 0s;
 }
-.footer-menu .menu li a:hover {
+.footer-menu .menu-last li a:hover {
     color: #30BAE7;
 }
+
+
+/* ---------------------------- footer menu icon ---------------------------- */
+.footer-menu-icon i {
+	color: #B5BFDB;
+	font-size: 25px;
+	margin: 0 5px;
+    cursor: pointer;
+}
+.footer-menu-icon {
+    display: none;
+}
+
+
+
 /* footer area end */
