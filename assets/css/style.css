@@ -562,3 +562,22 @@ circle {
 
 
 /* footer area end */
+
+
+/* scroll up */
+#scrollUp {
+	width: 60px;
+	height: 60px;
+	background: #30BAE7;
+	color: #fff;
+	right: 30px;
+    font-size: 25px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+    transition: all .3s ease 0s;
+}
+#scrollUp:hover {
+    line-height: 50px;
+}
