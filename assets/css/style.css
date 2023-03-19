@@ -44,7 +44,8 @@ a:hover {
     background: #643A79;
 }
 .menu-item li a.active {
-    background: #643A79;
+	background: #643A79;
+	color: #fff;
 }
 
 
@@ -438,11 +439,11 @@ circle {
 
 /* about area start */
 
-.client-area {
+.about-area {
     background: #D74680;
     padding: 90px 0;
 }
-.client-area .section-title h3::before {
+.about-area .section-title h3::before {
     background: #B73C6D;
 }
 
@@ -499,6 +500,9 @@ circle {
     padding: 25px;
     border-radius: 5px;
 }
+.form-area .mb-25 {
+    margin-bottom: 25px;
+}
 ::placeholder {
     color: #fff;
 }
@@ -529,6 +533,7 @@ circle {
     border-radius: 5px;
     border-bottom: 5px solid #299EC5;
     transition: all .3s ease 0s;
+    cursor: pointer;
 }
 .form-btn button:hover {
     background: #299EC5;
@@ -584,3 +589,105 @@ circle {
 #scrollUp:hover {
     line-height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  work.html                                 */
+/* -------------------------------------------------------------------------- */
+
+.service-area .mt-50 {
+    margin-top: 50px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                work.html end                               */
+/* -------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+/*                               blog.html start                              */
+/* -------------------------------------------------------------------------- */
+
+.blog-web {
+    background: #E7F1F8;
+    padding: 90px 0 20px;
+}
+.blog-web .section-title h3 {
+    color: #3C4761;
+}
+.blog-web .section-title p {
+    color: #3C4761;
+}
+.blog-web .section-title h3::before {
+    background: #C8D9E5;
+}
+
+/* -------------------------------- blog web start -------------------------------- */
+.blog-img img {
+    width: 100%;
+}
+.blog-content h3 {
+	font-size: 30px;
+    color: #3C4761;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.blog-content h3::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 5px;
+    background: #3C4761;
+}
+.blog-content p {
+	font-size: 18px;
+	line-height: 26px;
+	text-align: justify;
+    color: #3C4761;
+}
+
+.blog-img img{
+    border-radius: 5px;
+}
+.blog-content {
+	margin: 30px 0 70px;
+	border: 2px solid #3c4761;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+
+
+/* -------------------------------- blog web end -------------------------------- */
+
+/* ----------------------------- blog app start ----------------------------- */
+.blog-app {
+    background: #b0d8f5;
+    padding: 90px 0 20px;
+}
+.blog-app .section-title h3 {
+    color: #3C4761;
+}
+.blog-app .section-title p {
+    color: #3C4761;
+}
+.blog-app .section-title h3::before {
+    background: #7fc3f3;
+}
+/* ------------------------------ blog app end ------------------------------ */
+
+/* -------------------------------------------------------------------------- */
+/*                                blog.html end                               */
+/* -------------------------------------------------------------------------- */
